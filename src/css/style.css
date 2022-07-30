@@ -183,6 +183,10 @@ img {
     text-shadow: 1px 1px 10px black;
 }
 
+.beast_description {
+    margin-top: 20px;
+}
+
 @media (max-width: 1000px) {
     .beast_content_item img {
         float: none;
