@@ -143,7 +143,7 @@ img {
     display: none;
 }
 
-.beast_content_item .active {
+.beast_content_item.active {
     display: block;
 }
 

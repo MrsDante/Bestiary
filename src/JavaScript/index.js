@@ -6,9 +6,6 @@
 
     links.forEach((link) => {
         link.addEventListener('click', () => {
-            /*links.forEach((l) => {
-                l.classList.remove('active');
-            });*/
             const nav = link.closest('ul');
             const activeElement = nav.querySelector('.active');
       
@@ -23,7 +20,5 @@
       
             link.classList.add('active');
             anotherNeededTab.classList.add('active');
-        
-        })
-
-    })
+        });
+    });
