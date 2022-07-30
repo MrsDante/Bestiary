@@ -187,6 +187,17 @@ img {
     margin-top: 20px;
 }
 
+.beast_quote {
+    font-size: 14px;
+    font-style: italic;
+    text-align: right;
+}
+
+figcaption {
+    font-size: 12px;
+    text-align: right;
+}
+
 @media (max-width: 1000px) {
     .beast_content_item img {
         float: none;
