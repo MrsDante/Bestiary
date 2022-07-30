@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Бестиарий</title>
-  <link rel="stylesheet" href="src/">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/snarsky-old-style" type="text/css"/>
 </head>
 
 <body class="body">
@@ -15,39 +16,39 @@
       <section class="beatiary_tabs">
           <h2>Трупоеды</h2>
 
-          <ul class="bestiary_list">
+          <ul class="bestiary_list ul">
              
-            <li class="bestiary_item active"  data-bs-toggle="tab">
+            <li class="bestiary_item active"  data-bs-toggle="tab" data-bs-target="#cemetery_babe">
                  <div class="beast_image">
-                     <img width="100" height="100" src="#" alt="Кладбищенская баба">
+                     <img width="100" height="100" src="src/img/icons/1451285901_zhalnica.jpeg" alt="Кладбищенская баба">
                  </div>
                  <p class="beast_name">Кладбищенская баба</p>
               </li>
 
-              <li class="bestiary_item"  data-bs-toggle="tab">
+              <li class="bestiary_item"  data-bs-toggle="tab" data-bs-target="#water_babe">
                 <div class="beast_image">
-                    <img width="100" height="100" src="#" alt="Водная баба">
+                    <img width="100" height="100" src="src/img/icons/water_babe.jpeg" alt="Водная баба">
                 </div>
                 <p class="beast_name">Водная баба</p>
              </li>
 
-             <li class="bestiary_item"  data-bs-toggle="tab">
+             <li class="bestiary_item"  data-bs-toggle="tab" data-bs-target="#ghoul">
                 <div class="beast_image">
-                    <img width="100" height="100" src="#" alt="Гуль">
+                    <img width="100" height="100" src="src/img/icons/ghoul.jpeg" alt="Гуль">
                 </div>
                 <p class="beast_name">Гуль</p>
              </li>
 
-             <li class="bestiary_item"  data-bs-toggle="tab">
+             <li class="bestiary_item"  data-bs-toggle="tab" data-bs-target="#tumm">
                 <div class="beast_image">
-                    <img width="100" height="100" src="#" alt="Туманник">
+                    <img width="100" height="100" src="src/img/icons/tumm.jpeg.opdownload" alt="Туманник">
                 </div>
                 <p class="beast_name">Туманник</p>
              </li>
 
-             <li class="bestiary_item"  data-bs-toggle="tab">
+             <li class="bestiary_item"  data-bs-toggle="tab" data-bs-target="#drowned">
                 <div class="beast_image">
-                    <img width="100" height="100" src="#" alt="Утопец">
+                    <img width="100" height="100" src="src/img/icons/drowned.png" alt="Утопец">
                 </div>
                 <p class="beast_name">Утопец</p>
              </li>
@@ -57,7 +58,7 @@
       <section class="bestiary_content">
         <ul class="bestiaty_content_list tab-content">
            
-            <li class="beast_content_item active">
+            <li class="beast_content_item active" id="cemetery_babe">
                 <h3>Кладбищенская баба</h3>
                 <img src="#" alt="Кладбищенская баба">
                 <blockquote class="beast_quote">
@@ -68,9 +69,9 @@
                 <p>Выглядит как сгорбленная старуха с длинными руками, увенчанными когтями, которым позавидовал бы волколак. Трупы съедает не сразу, а ждёт, пока они разложатся, что не мешает ей охотиться и на живых.</p>
             </li>
 
-            <li class="beast_content_item">
+            <li class="beast_content_item" id="water_babe">
                 <h3>Водная баба</h3>
-                <img src="#" alt="Водная баба">
+                <img src="src/img/full_images/i25dpkgks6d71.jpeg" alt="Водная баба">
                 <blockquote class="beast_quote">
                     <p>Говорят, водные бабы – жены утопцев. Если так, то я не удивляюсь, что они такие стервы.</p>
                 </blockquote>
@@ -78,7 +79,7 @@
                 <p class="beast_description">Некоторые предания говорят о том, как водные бабы и водницы заманивали путников в свои построенные на болотах катки, притворяясь заблудившимися старушками. На самом деле только очень пьяный или слепой мог бы перепутать смердящее тиной и падалью логово с уютным домиком, а само чудовище – с бабушкой. Сморщенное и покрытое бородавками тело водной бабы достигает почти сажени и воняет илом и рыбой. Из загривка у нее торчат длинные, до двух падей длиной, костяные отростки. Образ дополняют волосы, похожие на ворох спутанных водорослей, и когти, которых не постыдился бы волколак.</p>
             </li>
 
-            <li class="beast_content_item">
+            <li class="beast_content_item" id="ghoul">
                 <h3>Гуль</h3>
                 <img src="#" alt="Гуль">
                 <blockquote class="beast_quote">
@@ -88,7 +89,7 @@
                 <p class="beast_description">Поверье гласит, что гули некогда были людьми, которые в свое время были вынуждены питаться трупами. Несколько лет, проведенных в темных склепах, превратили их в ужасных созданий. Вечный голод гулей способно утолить только человеческое мясо. Именно поэтому они убивают людей, оставляя недоеденные останки в укромных местах своих склепов.</p>
             </li>
 
-            <li class="beast_content_item">
+            <li class="beast_content_item" id="tumm">
                 <h3>Туманник</h3>
                 <img src="#" alt="Туманник">
                 <blockquote class="beast_quote">
@@ -98,7 +99,7 @@
                 <p class="beast_description">Туманная мгла — злейший враг путешественника. В ней легко потерять дорогу, напороться на скалы. Но все это ничто по сравнению с чудовищем, которое иногда в ней таится, — тyманником. Хоть у этой бестии крепкие руки и ногти острее зерриканских кинжалов, по-настоящему опасной ее делают не они, а способность сбить с пути, заманить, помутить рассудок. Иногда, вместо того чтобы нападать, туманники доводят свою жертву до безумия или загоняют её в вязкие топи и терпеливо ждут, пока она утонет в илистой воде.</p>
             </li>
 
-            <li class="beast_content_item">
+            <li class="beast_content_item" id="drowned">
                 <h3>Утопец</h3>
                 <img src="#" alt="Утопец">
                 <blockquote class="beast_quote">
@@ -117,7 +118,7 @@
       </section>
   </div>
   
-<script src="#"></script>
+<script src="src/JavaScript/index.js"></script>
 </body>
 
 
