@@ -217,6 +217,16 @@ a {
     font-weight: bold;
 }
 
+.beast_content_item-car > .grid > .img > img.small {
+    width: 100px;
+    height: 100px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
 
 @media (max-width: 1000px) {
     .beast_content_item img {
