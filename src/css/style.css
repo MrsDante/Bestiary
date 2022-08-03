@@ -198,6 +198,26 @@ figcaption {
     text-align: right;
 }
 
+
+.beast_content_item-car {
+    display: none;
+}
+
+.beast_content_item-car.activeCarousel {
+    display: block;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.bold {
+    color: white;
+    font-weight: bold;
+}
+
+
 @media (max-width: 1000px) {
     .beast_content_item img {
         float: none;
