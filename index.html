@@ -10,11 +10,15 @@
 
 <body class="body">
 
+    <div class="buttons-language">
+        <button type="submit" class="englishLanguage">English</button>
+        <button type="submit" class="russianLanguage">Русский</button>
+    </div>
   <div class="bestiary">
       <h1 class="langRu visible">БЕСТИАРИЙ</h1>
 
       <section class="beatiary_tabs">
-          <h2>Трупоеды</h2>
+          <h2 class="deadeaters">Трупоеды</h2>
 
           <ul class="bestiary_list ul">
              
@@ -134,7 +138,7 @@
                 <p class="beast_description">Туманная мгла — злейший враг путешественника. В ней легко потерять дорогу, напороться на скалы. Но все это ничто по сравнению с чудовищем, которое иногда в ней таится, — тyманником. Хоть у этой бестии крепкие руки и ногти острее зерриканских кинжалов, по-настоящему опасной ее делают не они, а способность сбить с пути, заманить, помутить рассудок. Иногда, вместо того чтобы нападать, туманники доводят свою жертву до безумия или загоняют её в вязкие топи и терпеливо ждут, пока она утонет в илистой воде.</p>
             </li>
 
-            <li class="beast_content_item" id="drowned" class="carousel-inner" role="listbox">
+            <li class="beast_content_item carousel-inner" id="drowned" role="listbox" >
 
                 <div class="carousel-item activeCarousel beast_content_item-car">
                 <h3>Утопец</h3>
@@ -197,9 +201,11 @@
 
       </section>
   </div>
-  
+
+<script type="module" src="src/JavaScript/languageChanger.js"></script>
 <script src="src/JavaScript/index.js"></script>
 <script src="src/JavaScript/carousel.js"></script>
+
 </body>
 
 

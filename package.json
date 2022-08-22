@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "dependencies": {
+    "i18next": "*"
+  },
+  "name": "bestiary",
+  "description": "#GitHubPages:",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrsDante/bestiary.github.io.git"
+  },
+  "author": "MrsDante",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrsDante/bestiary.github.io/issues"
+  },
+  "homepage": "https://github.com/MrsDante/bestiary.github.io#readme"
+}
